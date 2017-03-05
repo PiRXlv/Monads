@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="0" testcasecount="12" total="12" passed="3" failed="9" inconclusive="0" skipped="0" asserts="4" result="Failed" portable-engine-version="3.3.0.0" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.379509">
+  <test-run id="0" testcasecount="12" total="12" passed="3" failed="9" inconclusive="0" skipped="0" asserts="4" result="Failed" portable-engine-version="3.3.0.0" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.200001">
+    <test-suite type="Assembly" id="1016" name="Monads.DLL" fullname="D:/Sources/Learning/Monads/bin/Debug/net462/win7-x64/Monads.DLL" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.152012" total="12" passed="3" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="4">
+      <environment framework-version="3.6.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="D:\Sources\Learning\Monads" machine-name="SKYRANGER-01" user="ivars" user-domain="SKYRANGER-01" culture="en-US" uiculture="en-US" os-architecture="x64" />
+      <settings>
+        <setting name="WorkDirectory" value="D:\Sources\Learning\Monads" />
+        <setting name="NumberOfTestWorkers" value="8" />
+      </settings>
+      <properties>
+        <property name="_PID" value="19404" />
+        <property name="_APPDOMAIN" value="dotnet-test-nunit.exe" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1017" name="Monads" fullname="Monads" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.136538" total="12" passed="3" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1002" name="AddingOne" fullname="Monads.AddingOne" classname="Monads.AddingOne" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.084304" total="7" passed="2" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1004" name="AddingToEmptyNullable_CreatesEmptyNullable" fullname="Monads.AddingOne.AddingToEmptyNullable_CreatesEmptyNullable" methodname="AddingToEmptyNullable_CreatesEmptyNullable" classname="Monads.AddingOne" runstate="Runnable" seed="1938144929" result="Passed" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.010392" asserts="1" />
+          <test-case id="1003" name="AddingToNullableWithValue_CreatesNullableWithValue" fullname="Monads.AddingOne.AddingToNullableWithValue_CreatesNullableWithValue" methodname="AddingToNullableWithValue_CreatesNullableWithValue" classname="Monads.AddingOne" runstate="Runnable" seed="1633885718" result="Passed" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.022818" asserts="2" />
+          <test-case id="1005" name="AddingToOnDemand_CreatesNewOnDemand" fullname="Monads.AddingOne.AddingToOnDemand_CreatesNewOnDemand" methodname="AddingToOnDemand_CreatesNewOnDemand" classname="Monads.AddingOne" runstate="Runnable" seed="631115200" result="Failed" label="Error" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.007729" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : implement me]]></message>
+              <stack-trace><![CDATA[   at Monads.GenericExtensions.CreateOnDemand[T](T value)
+   at Monads.AddingOne.AddingToOnDemand_CreatesNewOnDemand()]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1006" name="AddingToOnDemand_DoesntExecuteOriginalOnDemand" fullname="Monads.AddingOne.AddingToOnDemand_DoesntExecuteOriginalOnDemand" methodname="AddingToOnDemand_DoesntExecuteOriginalOnDemand" classname="Monads.AddingOne" runstate="Runnable" seed="1011839216" result="Failed" label="Error" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.001560" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : implement me]]></message>
+              <stack-trace><![CDATA[   at Monads.ApplyExtensions.AddOne(Func`1 value)
+   at Monads.AddingOne.AddingToOnDemand_DoesntExecuteOriginalOnDemand()]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1009" name="ApplyFunction_CanTransformResult" fullname="Monads.AddingOne.ApplyFunction_CanTransformResult" methodname="ApplyFunction_CanTransformResult" classname="Monads.AddingOne" runstate="Runnable" seed="1348990960" result="Failed" label="Error" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.001392" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : implement me]]></message>
+              <stack-trace><![CDATA[   at Monads.GenericExtensions.CreateOnDemand[T](T value)
+   at Monads.AddingOne.ApplyFunction_CanTransformResult()]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1008" name="ApplyingFunctionOnDemand_CreatesNewOnDemand" fullname="Monads.AddingOne.ApplyingFunctionOnDemand_CreatesNewOnDemand" methodname="ApplyingFunctionOnDemand_CreatesNewOnDemand" classname="Monads.AddingOne" runstate="Runnable" seed="404025178" result="Failed" label="Error" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.000874" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : implement me]]></message>
+              <stack-trace><![CDATA[   at Monads.GenericExtensions.CreateOnDemand[T](T value)
+   at Monads.AddingOne.ApplyingFunctionOnDemand_CreatesNewOnDemand()]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1007" name="ApplyingFunctionToNullable_CreatesNullableWithValue" fullname="Monads.AddingOne.ApplyingFunctionToNullable_CreatesNullableWithValue" methodname="ApplyingFunctionToNullable_CreatesNullableWithValue" classname="Monads.AddingOne" runstate="Runnable" seed="606726605" result="Failed" label="Error" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.001038" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : implement me]]></message>
+              <stack-trace><![CDATA[   at Monads.ApplyFunctionExtension.ApplyFunction(Nullable`1 value, Func`2 function)
+   at Monads.AddingOne.ApplyingFunctionToNullable_CreatesNullableWithValue()]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1010" name="ApplySpecial" fullname="Monads.ApplySpecial" classname="Monads.ApplySpecial" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.004102" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1011" name="DoubleAmplifier_ShouldGetFolded" fullname="Monads.ApplySpecial.DoubleAmplifier_ShouldGetFolded" methodname="DoubleAmplifier_ShouldGetFolded" classname="Monads.ApplySpecial" runstate="Runnable" seed="2125216188" result="Failed" label="Error" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.001064" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : implement me]]></message>
+              <stack-trace><![CDATA[   at Monads.GenericExtensions.CreateOnDemand[T](T value)
+   at Monads.ApplySpecial.DoubleAmplifier_ShouldGetFolded()]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1012" name="ComposeTests" fullname="Monads.ComposeTests" classname="Monads.ComposeTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.028119" total="3" passed="1" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1015" name="AvoidException" fullname="Monads.ComposeTests.AvoidException" methodname="AvoidException" classname="Monads.ComposeTests" runstate="Runnable" seed="1571153541" result="Failed" label="Error" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.001713" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidOperationException : Implement me]]></message>
+              <stack-trace><![CDATA[   at Monads.ComposeExtensions.Compose[X,Y,Z](Func`2 f, Func`2 g)
+   at Monads.ComposeTests.AvoidException()]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1014" name="CrashOnNull" fullname="Monads.ComposeTests.CrashOnNull" methodname="CrashOnNull" classname="Monads.ComposeTests" runstate="Runnable" seed="268493107" result="Passed" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.012380" asserts="1" />
+          <test-case id="1013" name="MonadsShouldBeComposable" fullname="Monads.ComposeTests.MonadsShouldBeComposable" methodname="MonadsShouldBeComposable" classname="Monads.ComposeTests" runstate="Runnable" seed="330042548" result="Failed" label="Error" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.001276" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidOperationException : Implement me]]></message>
+              <stack-trace><![CDATA[   at Monads.ComposeExtensions.Compose[X,Y,Z](Func`2 f, Func`2 g)
+   at Monads.ComposeTests.MonadsShouldBeComposable()]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1000" name="WrappingValues" fullname="Monads.WrappingValues" classname="Monads.WrappingValues" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.006398" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1001" name="CreatingMonadLikeValues" fullname="Monads.WrappingValues.CreatingMonadLikeValues" methodname="CreatingMonadLikeValues" classname="Monads.WrappingValues" runstate="Runnable" seed="1667455979" result="Failed" label="Error" start-time="2017-03-05 16:47:41Z" end-time="2017-03-05 16:47:41Z" duration="0.002105" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : implement me]]></message>
+              <stack-trace><![CDATA[   at Monads.GenericExtensions.CreateEnumerable[T](T value)
+   at Monads.WrappingValues.CreatingMonadLikeValues()]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-run>
+</test-run>
